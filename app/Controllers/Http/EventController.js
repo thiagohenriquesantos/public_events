@@ -17,6 +17,7 @@ class EventController {
     await Event.create({ ...eventParams })
     return response.route('events.index')
   }
+  
 }
 
 module.exports = EventController
